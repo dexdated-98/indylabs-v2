@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Analytics } from '@vercel/analytics/react';
 
 // --- Google Analytics Tag Injection ---
@@ -56,22 +56,7 @@ const X = ({ size = 24, className = '' }) => (
     <path d="m6 6 12 12" />
   </svg>
 );
-const TrendingUp = ({ size = 24, className = '' }) => (
-  <svg
-    width={size}
-    height={size}
-    className={className}
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-  >
-    <polyline points="22 7 13.5 15.5 8.5 10.5 2 17" />
-    <polyline points="16 7 22 7 22 13" />
-  </svg>
-);
+
 const Users = ({ size = 24, className = '' }) => (
   <svg
     width={size}
@@ -172,21 +157,7 @@ const BarChart = ({ size = 24, className = '' }) => (
     <line x1="6" x2="6" y1="20" y2="16" />
   </svg>
 );
-const Zap = ({ size = 24, className = '' }) => (
-  <svg
-    width={size}
-    height={size}
-    className={className}
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-  >
-    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
-  </svg>
-);
+
 const Target = ({ size = 24, className = '' }) => (
   <svg
     width={size}
