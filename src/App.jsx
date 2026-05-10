@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 
 // --- Google Analytics Tag Injection ---
 // Placed outside the component so it executes instantly before React mounts,
@@ -1179,6 +1180,7 @@ export default function App() {
           </div>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 }
